@@ -1,5 +1,5 @@
 //Ejercicio 1
-/*
+
 let a = 5
 let b = 10
 
@@ -11,21 +11,21 @@ console.log(c)
 let nombre = prompt("Cual es tu nombre?")
 
 console.log("Hola,  " + nombre)
-*/
+
 //Ejercicio2
-/*
+
 let d = prompt("Ingrese el primer Numero :")
 let e = prompt("Ingrese el segundo Numero :")
 
 if(d > e){
   console.log("El mayor es: " + d)
 }else{
-  console.log("El mayor es: " + e)123
+  console.log("El mayor es: " + e)
 }
-*/
+
 //Ejercicio3
 
-/*
+
 let parimpar = prompt("Ingrese un numero par o impar :")
 
 if(parimpar % 2 == 0){
@@ -33,10 +33,10 @@ if(parimpar % 2 == 0){
 }else{
   console.log("El numero "+ parimpar+ " es impar")
 }
-  */
+  
 
 //Ejercicio  4
-/*
+
 let number = 10
 
 while(number > 0 ){
@@ -44,9 +44,9 @@ while(number > 0 ){
   number = number -1
  
 }
-*/
+
 //Ejercicio 5
-/*
+
 let numberdos
 do{
 
@@ -56,10 +56,10 @@ do{
 }while(numberdos <= 100)
 
 console.log("Ingresaste un numero mayor a 100: "+ numberdos)
-*/
+
 
 //Ejercicio 6
-/*
+
 function esPar( numero){
 
   if(numero % 2 == 0){
@@ -72,10 +72,10 @@ function esPar( numero){
 
 console.log("El numero 9 es par : " + esPar(9))
 console.log("El numero 10 es par : " + esPar(10))
-*/
+
 
 //Ejercicio 7
-/*
+
 function convertirCelsiusAFahrenheit(celsius){
 let F = celsius * 1.8 + 32
 return console.log(celsius + "C son equivalentes a " + F + "F")
@@ -84,9 +84,9 @@ return console.log(celsius + "C son equivalentes a " + F + "F")
 convertirCelsiusAFahrenheit(30);
 convertirCelsiusAFahrenheit(40);
 convertirCelsiusAFahrenheit(28);
-*/
 
-/*
+
+
 
 let Persona = {
   nombre : "Nombre",
@@ -107,9 +107,9 @@ console.log("Nombre : " + Persona.nombre +
 
 Persona.cambiarCiudad("Mendoza");
 
-*/
 
-/*
+
+
 let Libro = {
   titulo : "Cien Años de Soledad",
   autor : "Gabriel García Márquez",
@@ -128,9 +128,9 @@ let Libro = {
 }
 
 Libro.esAntiguo();
-*/
 
-/*
+
+
 
 let numeros = [1,2,3,4,5,6,7,8,9,10]
 
@@ -153,7 +153,7 @@ for(let j = 1 ; j < 21 ; j++){
 }
 
 console.log(pares)
-*/
+
 
 const cambiarColor = () =>{
 
